@@ -1,4 +1,4 @@
-export default [
+export default () => [
   `at the end of the day...`,
   `as we speak`,
   `give you a heads-up`,
@@ -23,6 +23,5 @@ export default [
   `unicorn`,
   `outside the box`,
   `going forward`,
-  `takeaway`,
   `let's circle back`,
 ]
