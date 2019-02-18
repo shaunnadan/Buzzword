@@ -2,7 +2,6 @@ import React, { Component } from 'react'
 import { ThemeProvider } from 'emotion-theming'
 import { Helmet } from 'react-helmet'
 import { Home } from './pages'
-import './App.css'
 
 const theme = {
   colors: {
