@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import { ThemeProvider } from 'emotion-theming'
 import { Helmet } from 'react-helmet'
+import { Home } from './pages'
 import './App.css'
 
 const theme = {
@@ -35,9 +36,7 @@ class App extends Component {
           />
           <meta name="theme-color" content="#008f68" />
         </Helmet>
-        <div className="App">
-          <header className="App-header" />
-        </div>
+        <Home />
       </ThemeProvider>
     )
   }
