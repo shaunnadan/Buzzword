@@ -6,6 +6,7 @@ import { corporateBuzzwords } from '../helpers'
 const Box = styled('div')`
   width: 700px;
   height: 620px;
+  margin: auto;
   border: 2px solid #222;
   background: red;
   user-select: none;
