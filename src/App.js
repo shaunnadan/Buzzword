@@ -3,10 +3,30 @@ import { ThemeProvider } from 'emotion-theming'
 import { Helmet } from 'react-helmet'
 import './App.css'
 
+const theme = {
+  colors: {
+    primary: '',
+    secondary: '',
+    tertiary: '',
+    color: '',
+    header: 'white',
+  },
+  header: {
+    fontSize: '50px',
+    textTransform: 'uppercase',
+    fontFamily: 'Palatino',
+    textAlign: 'center',
+  },
+  copy: {
+    fontFamily: 'Arial, Helvetica, sans-serif',
+    fontSize: '10px',
+  },
+}
+
 class App extends Component {
   render() {
     return (
-      <ThemeProvider>
+      <ThemeProvider theme={theme}>
         <Helmet>
           <title>Buzzword Bingo Card Generator</title>
           <meta
